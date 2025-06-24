@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Sets up the environment for web development projects that uses JS technology.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
